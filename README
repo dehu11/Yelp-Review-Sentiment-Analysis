@@ -1,0 +1,53 @@
+Open Terminal to install required libraries
+
+To install NLTK: run 
+	sudo pip install -U nltk
+
+also install Numpy: run
+	sudo pip install -U numpy
+
+To install NLTK data: run
+	sudo python
+	import nltk
+	nltk.download()
+
+In the window that comes up choose the download directory:
+	/usr/share/nltk_data
+
+Either install all packages or go to the "All Packages" tab and install "stopwords" and "porter_test"
+The window can be closed when finished
+Return to the terminal and enter quit() to exit python
+
+To install TextBlob: run
+	pip install -U textblob
+	python -m textblob.download_corpora
+
+To install word_cloud: run
+	pip install wordcloud
+
+To install scikit-learn: run
+	pip install -U scikit-learn
+
+Other resources should already be available to use
+
+When running NaiveBayes.ipynb, ensure yelp_labelled.txt is in the same directory or the file won't be read.
+
+The NaiveBayes notebook should be able to be run straight through with no additional work involved, outputs will appear below the selected cell.
+The LogisticRegression notebook should also be able to run straight through with no additional work. Outputs will appear below the selected cell. 
+
+Another option is to run NaiveBayes.py in Terminal with:
+	python NaiveBayes.py
+
+The output of NaiveBayes.py will be as follows:
+	Accuracy %
+	Probability Distribution of test data
+	Positive word cloud
+	Negative word cloud
+	Actual rating distribution
+	Classified rating distribution
+	Confusion matrix
+	Most frequent words
+	Most informative features
+	
+
+
